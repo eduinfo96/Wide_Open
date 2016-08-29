@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+main.top {
+  width: 100%;
+
+}
+
+header.nav {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  position: fixed:
+}
+
+.nav-buttons {
+   width: 85%;
+   height: 72px;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+ }
+
+
+.green-logo {
+  width: 50px;
+  /*float: left;*/
+  margin-right: 0;
+  margin-top: 10px;
+}
+
+.green-logo img {
+  height: 46px;
+  width: 143px;
+}
+
+.hamburger {
+  /*float: right;*/
+  height: 25px;
+  margin-left: 279px;
+  margin-top: 28px;
+}
+
+.hamburger img {
+  height: 16px;
+  width: 20px;
+}
+
+section.background-image {
+  width: 100%;
+  background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  height: 306px;
+  position: relative;
+  text-align: center;
+}
+
+.main-text {
+  color: white;
+  height: 170px;
+  width: 425px;
+  box-sizing: border-box;
+  line-height: 31px;
+  display: block;
+  padding-top: 12px;
+}
+
+.title {
+  font-family: oswald;
+  font-size: 22px;
+  font-weight: 500px;
+  text-align: center;
+}
+
+.workshop-text {
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: oswald;
+  text-align: center;
+  display: block;
+  height: 53px;
+  margin-top: 20px;
+
+}
+
+.blocks-and-text {
+  width: 100%;
+
+}
+
+.building-text {
+  text-align: center;
+  font-family: oswald;
+  font-size: 21px;
+  font-weight: lighter;
+  line-height: 21px;
+  width: 240px;
+  height: 40px;
+  position: relative;
+  display: block;
+  margin-left: 91px;
+
+}
+
+.green-text {
+  color: #BDD436;
+}
+
+.orange-text {
+  color: #FE7F39;
+}
+
+.blocks {
+  /*position: absolute;*/
+  display: block;
+  background: white;
+  width: 10%;
+  height: 8px;
+  top: 50px;
+}
+
+.blocks#right {
+  float: right;
+  margin-right: 51px;
+  margin-top: 7px;
+}
+
+.blocks#left {
+  float: left;
+  margin-left: 51px;
+  margin-top: 7px;
+}
+
+.learn-more-sect {
+  height: 107px;
+  width:100%;
+  text-align: center;
+  position: relative;
+}
+
+.learn-more-text {
+  color: white;
+  font-family: Open Sans;
+  border: 2px solid;
+  border-radius: 25px;
+  border-color: #BDD436;
+  background-color: #BDD436;
+  margin-top: 37px;
+  display: block;
+  width:400px;
+  margin-left: 12px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.wot  {
+  width: 100%;
+  background-color: #F0F0F0;
+  height: 465px;
+  font-family: Open Sans;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 43px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.wot-text {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #6A787C;
+}
+
+.how-it-works {
+ color: #6A787C;
+ font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ font-weight:300;
+ font-size: 35px;
+ font-stretch: expanded;
+ margin-left: 30px;
+ margin-right: 30px;
+ margin-top: 19px;
+ letter-spacing: -2px;
+}
+
+#green-works {
+  color: #BDD436;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.works-img {
+  width: 90px;
+  height: 87px;
+  margin: auto;
+  margin-top: 31px;
+  background-image: url('https://i.imgsafe.org/23b542745b.png');
+}
